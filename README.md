@@ -122,10 +122,17 @@ rm -rf chroma_db/  # macOS/Linux
 rd /s /q chroma_db # Windows Command Prompt
 
 🚧 Potential Improvements
+
 Support for more document types (CSV, JSON, websites, YouTube transcripts)
+
 Source citation highlighting in responses
+
 Multi-user authentication and cloud vector storage
+
 Visualization UI for document snippets retrieved during RAG
+
 Switchable LLM support (GPT, Claude, Mistral, Gemma)
+
 Memory-aware conversation history for better multi-turn chat
+
 Deployment to Streamlit Cloud / HuggingFace Spaces / Docker
