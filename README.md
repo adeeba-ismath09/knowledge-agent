@@ -1,6 +1,6 @@
 ⚡ Knowledge Base RAG Agent (LlamaIndex + Groq + BGE Embeddings)
 
-This project implements a Retrieval-Augmented Generation (RAG) agent that allows users to upload documents (PDFs) and query them conversationally. It is architected for maximum speed and cost-efficiency by leveraging the Groq API for lightning-fast LLM inference and an open-source HuggingFace model for embeddings.
+This project implements a Retrieval-Augmented Generation (RAG) agent that allows users to upload documents and query them conversationally. It is architected for maximum speed and cost-efficiency by leveraging the Groq API for lightning-fast LLM inference and an open-source HuggingFace model for embeddings.
 The user interface is built using Streamlit, providing a simple, interactive chat experience.
 
 🚀 Tech Stack Highlights
@@ -26,19 +26,31 @@ Builds the simple, interactive web-based chat interface.
 Rapid Prototyping and deployment.
 
 ⭐ Features and Limitations
+
 ✔ Features
+
 Conversational question answering over uploaded documents
+
 Ultra-fast answer generation using Groq LLM API
+
 Automatic embedding and retrieval powered by BGE + LlamaIndex
+
 Local vector database (ChromaDB) for persistent knowledge
+
 Simple and interactive Streamlit chat interface
+
 Supports multiple document uploads
+
 Privacy-first — all storage local
 
 ❗ Limitations
+
 Does not support scanned handwritten documents unless OCR is used
+
 Retrieval quality depends on extracted text clarity
+
 Internet browsing is not supported — answers come only from uploaded files
+
 Knowledge base must be refreshed when files are updated
 
 ⚙ Setup and Installation
