@@ -1,0 +1,7 @@
+streamlit
+groq
+llama-index
+python-dotenv
+# Core LlamaIndex integration packages
+llama-index-llms-groq
+llama-index-vector-stores-chroma
