@@ -1,7 +1,20 @@
+# Web Application Framework
 streamlit
-groq
-llama-index
+
+# Core Python Utilities
 python-dotenv
-# Core LlamaIndex integration packages
+# The app uses tempfile and os, which are built-in and don't need listing
+
+# LlamaIndex Core and Integrations
+llama-index
+# Core Modules used from llama_index.core
+llama-index-core
+# LLM Provider
 llama-index-llms-groq
+# Embedding Model Provider
+llama-index-embeddings-huggingface
+# Vector Store Provider
 llama-index-vector-stores-chroma
+
+# Database Client (used directly with chromadb.PersistentClient)
+chromadb
