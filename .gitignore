@@ -1,0 +1,7 @@
+venv/
+.env
+_pycache_/
+uploaded_docs/
+chroma_db/
+*.lock
+.env
