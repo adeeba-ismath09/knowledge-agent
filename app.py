@@ -8,7 +8,7 @@ from llama_index.core import VectorStoreIndex, Settings
 from llama_index.core import SimpleDirectoryReader
 from llama_index.core.node_parser import SentenceSplitter
 
-# --- Groq LLM ---
+# --- Groq LLM -
 from llama_index.llms.groq import Groq
 
 # --- Embeddings (HuggingFace - Free) ---
