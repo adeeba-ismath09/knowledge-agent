@@ -1,4 +1,4 @@
-#⚡ Knowledge Base RAG Agent (LlamaIndex + Groq + BGE Embeddings)
+⚡ Knowledge Base RAG Agent (LlamaIndex + Groq + BGE Embeddings)
 
 This project implements a Retrieval-Augmented Generation (RAG) agent that allows users to upload documents and query them conversationally. It is architected for maximum speed and cost-efficiency by leveraging the Groq API for lightning-fast LLM inference and an open-source HuggingFace model for embeddings.
 The user interface is built using Streamlit, providing a simple, interactive chat experience.
@@ -25,7 +25,7 @@ Front-End: Streamlit
 Builds the simple, interactive web-based chat interface.
 Rapid Prototyping and deployment.
 
-#⭐ Features and Limitations
+⭐ Features and Limitations
 
 ✔ Features
 
@@ -53,7 +53,7 @@ Internet browsing is not supported — answers come only from uploaded files
 
 Knowledge base must be refreshed when files are updated
 
-#⚙ Setup and Installation
+⚙ Setup and Installation
 
 Follow these steps to get the application running on your local machine.
 
@@ -102,7 +102,7 @@ streamlit run app.py
 The application will open automatically in your browser (usually at http://localhost:8501
 ).
 
-#❓ How to Use
+❓ How to Use
 
 Upload Documents: Use the file uploader on the left sidebar to select one or more PDF documents.
 
@@ -112,7 +112,7 @@ Query: Once indexing is complete, type your question into the chat input at the 
 
 Response: The agent will retrieve the most relevant information from your documents, use the Groq LLM to generate a fast, concise answer, and stream the response back to you.
 
-#🧹 Cleanup and Data Management
+🧹 Cleanup and Data Management
 
 The vector database is stored locally for persistence, but you can easily remove it.
 To Clear the Knowledge Base: Simply delete the chroma_db folder from the root directory of your project. The application will rebuild it the next time you run it and upload new files.
@@ -121,7 +121,7 @@ To Clear the Knowledge Base: Simply delete the chroma_db folder from the root di
 rm -rf chroma_db/  # macOS/Linux
 rd /s /q chroma_db # Windows Command Prompt
 
-#🚧 Potential Improvements
+🚧 Potential Improvements
 
 Support for more document types (CSV, JSON, websites, YouTube transcripts)
 
